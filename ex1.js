@@ -7,13 +7,21 @@
 // Current Count : 4
 // Loop stopped!
 // The following code has 4 errors, find them and fix them and use node to check the output.
-const count = 0;
+count = 0;
             
-            console("Starting Loop");
+            console.log("Starting Loop");
             do {
                console.log("Current Count : " + count);
-               count--;
+               count++;
             }
             
-            then (count < 5);
-            console.log ("Loop stopped!);
+            while (count < 5)
+               console.log ("Loop stopped!");
+            
+            
+
+// 1) Change "then" to "while"
+// 2) Change count "--" to "++"
+// 3) "Loop stopped!" was missing closing double quotations
+// 4) Change line 12 "console" to "console.log"
+// 5) Deleted const
