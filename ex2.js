@@ -5,13 +5,20 @@
 
 function concatenate(first, last) {
     var full;
-    full = `My name is ${first} ${last} !";
-   
+    full = `My name is ${first} ${last} !`;
+    return full;
   }
-  getName(first, lastName) {
+function getName(firstName, lastName) {
     var result;
-    result = concate(firstName, lastName);
-    console.log(result );
+    result = concatenate(firstName, lastName);
+    console.log(result);
   }
-  secondFunction("Zara’, "Williams");
+getName('Zara', 'Williams');
   
+  // 1) Change to double quotation for Zara
+  // 2) Back tick required for line 8 and delete quotation at the end of sentence
+  // 3) In line 11, change "first" to "firstName"
+  // 4) In line 13, change the word "concate" to "concatenate"
+  // 5) Add return in line 9
+  // 6) In line 11, add "function" to getName
+  // 7) In line 16, change "secondFunction" to "getName"
