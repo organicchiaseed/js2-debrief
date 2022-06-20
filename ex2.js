@@ -4,9 +4,7 @@
 // Hint: check particularly for incorrect marks/syntax, mispelled functions, and that information is returned from a function if needed.
 
 function concatenate(first, last) {
-    var full;
-    full = `My name is ${first} ${last} !`;
-    return full;
+  return `My name is ${first} ${last} !`;
   }
 function getName(firstName, lastName) {
     var result;
@@ -22,3 +20,5 @@ getName('Zara', 'Williams');
   // 5) Add return in line 9
   // 6) In line 11, add "function" to getName
   // 7) In line 16, change "secondFunction" to "getName"
+
+  // 8) Get rid of var full

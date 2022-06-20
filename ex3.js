@@ -9,3 +9,23 @@
 // 3. Create a function to convert today’s temperature from Celsius to Fahrenheit
 // a) Celsius to Fahrenheit: (°C × 9/5) + 32 = °F
 // b) Fahrenheit to Celsius: (°F − 32) x 5/9 = °C
+
+// First function
+dateTime = () => {
+    const date = new Date();
+    let day = date.toISOString().split('T')[0];
+    let time = date.toLocaleDateString();
+    console.log(`The current date and time is: ${day} - ${time}`)
+}
+
+console.log(dateTime())
+
+// Second function
+function myGreeting() {
+    console.log("I'm ready!")
+}
+setTimeout(myGreeting, 5000);
+
+console.log(myGreeting());
+
+// Third function
